@@ -7,6 +7,8 @@ export default {
 
   playerUpdateInterval: 1000,
 
+  maxSearchResults: 10,
+
   cluster: {
     enabled: true
   }
