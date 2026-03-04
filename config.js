@@ -1,15 +1,13 @@
 export default {
   server: {
-    port: 2333,
+    port: Number(process.env.PORT) || 2333,
     host: "0.0.0.0",
     password: "saltybotstrongpass"
   },
 
+  playerUpdateInterval: 1000,
+
   cluster: {
     enabled: true
-  },
-
-  lavalink: {
-    plugins: []
   }
 }
