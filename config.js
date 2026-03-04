@@ -8,8 +8,8 @@ export default {
   playerUpdateInterval: 1000,
 
   maxSearchResults: 10,
-
   maxAlbumPlaylistLength: 200,
+  trackStuckThresholdMs: 10000,
 
   cluster: {
     enabled: true
