@@ -10,6 +10,7 @@ export default {
   maxSearchResults: 10,
   maxAlbumPlaylistLength: 200,
   trackStuckThresholdMs: 10000,
+  zombieThresholdMs: 30000,
 
   cluster: {
     enabled: true
