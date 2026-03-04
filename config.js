@@ -9,6 +9,8 @@ export default {
 
   maxSearchResults: 10,
 
+  maxAlbumPlaylistLength: 200,
+
   cluster: {
     enabled: true
   }
