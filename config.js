@@ -1,11 +1,15 @@
-module.exports = {
+export default {
   server: {
-    host: "0.0.0.0",
     port: 2333,
+    host: "0.0.0.0",
     password: "saltybotstrongpass"
   },
 
-  lavalink: {
+  cluster: {
     enabled: true
+  },
+
+  lavalink: {
+    plugins: []
   }
 }
