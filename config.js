@@ -5,6 +5,11 @@ export default {
     password: "saltybotstrongpass"
   },
 
+  cluster: {
+    enabled: true,
+    workers: 1
+  },
+
   playerUpdateInterval: 1000,
 
   maxSearchResults: 10,
