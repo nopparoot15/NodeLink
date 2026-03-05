@@ -17,7 +17,3 @@ export default {
   trackStuckThresholdMs: 10000,
   zombieThresholdMs: 30000,
 
-  cluster: {
-    enabled: true
-  }
-}
