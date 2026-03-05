@@ -2,7 +2,7 @@ export default {
   server: {
     host: '0.0.0.0',
     port: 2333,
-    password: 'youshallnotpass',
+    password: 'saltybotstrongpass',
     useBunServer: false // set to true to use Bun.serve websocket (experimental)
   },
   cluster: {
